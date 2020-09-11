@@ -1,0 +1,20 @@
+{
+  "name": "browser-monkey3-karma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "artemave <artemave@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-monkey": "3.0.0-beta.4",
+    "karma": "^5.2.2",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^2.0.1",
+    "karma-webpack": "^4.0.2",
+    "mocha": "^8.1.3",
+    "webpack": "^4.44.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

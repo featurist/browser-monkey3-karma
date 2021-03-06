@@ -7,7 +7,11 @@ module.exports = (config) => {
     preprocessors: {
       'test/**/*Spec.js': ['webpack']
     },
-    webpack: {},
+    webpack: {
+      experiments: {
+        topLevelAwait: true
+      }
+    },
     reporters: ['progress'],
     port: 9876,
     colors: true,

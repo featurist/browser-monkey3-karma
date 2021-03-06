@@ -1,5 +1,6 @@
-const {ReactMount, Query} = require('browser-monkey')
-const React = require('react')
+import React from 'react'
+const {Query} = await import('browser-monkey')
+const {default: ReactMount} = await import('browser-monkey/ReactMount')
 
 class App extends React.Component {
   render () {
